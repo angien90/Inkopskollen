@@ -45,3 +45,18 @@ för att köra projektet.
 - Börja med att planera ert arbete, börja inte med Visual Studio Code, även om det är lockande.
 - Gör ert bästa att inte stressa. Lättare sagt än gjort, jag vet. Men ingen mår bättre av att stressa.
 - Ha roligt, skratta när det blir fel och fortsätt att vara nyfiken :)
+
+
+---
+
+## Komponenthierarki 
+
+ShoppingList                <-- Parent (root för listan och state)
+├── ItemForm                <-- Child (formulär för att lägga till ny vara)
+├── SortButtons             <-- Child (knappar för sortering)
+├── ShoppingListView        <-- Child (renderar listan)
+│   ├── ShoppingListItem    <-- Grandchild (enskilda listobjekt)
+│   ├── ShoppingListItem
+│   └── ...                
+├── CompletedItems          <-- Child (visar avklarade varor)
+└── EditMode                <-- Child (redigeringsläge, visas när man trycker på ändra-knappen)
