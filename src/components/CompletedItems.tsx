@@ -35,7 +35,7 @@ export const CompletedItems = ({ items, onUndo }: CompletedItemsProps) => {
               type="checkbox"
               title="Avklarade"
               checked={item.isDone}
-              onClick={() => onUndo(item.item)}
+              onChange={() => onUndo(item.item)}
             />
               {item.item} ({item.section})
             </label>
