@@ -51,11 +51,19 @@ för att köra projektet.
 ## Komponenthierarki 
 
 ShoppingList                <-- Parent (root för listan och state)
+
 ├── ItemForm                <-- Child (formulär för att lägga till ny vara)
+
 ├── SortButtons             <-- Child (knappar för sortering)
+
 ├── ShoppingListView        <-- Child (renderar listan)
+
 │   ├── ShoppingListItem    <-- Grandchild (enskilda listobjekt)
+
 │   ├── ShoppingListItem
-│   └── ...                
+
+│   └── ...      
+
 ├── CompletedItems          <-- Child (visar avklarade varor)
+
 └── EditMode                <-- Child (redigeringsläge, visas när man trycker på ändra-knappen)
