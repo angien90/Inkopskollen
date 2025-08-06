@@ -47,10 +47,12 @@ ShoppingList                <-- Parent (root för listan och state)
 
 │   └── ...      
 
-## Slutbetyg
-<img width="1014" height="280" alt="betyg" src="https://github.com/user-attachments/assets/db6b0f43-ed8f-4a89-ad58-ff672694d0c9" />
-
-
 ├── CompletedItems          <-- Child (visar avklarade varor)
 
 └── EditMode                <-- Child (redigeringsläge, visas när man trycker på ändra-knappen)
+
+
+## Slutbetyg
+<img width="634" height="90" alt="betyg" src="https://github.com/user-attachments/assets/81f4e569-ef68-4efe-aecd-2465e2d37326" />
+
+VG är det högsta betyget som går att få i utbildningen.
